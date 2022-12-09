@@ -2,7 +2,7 @@ let client = require("../dbConnect");
 let projectCollection;
 
 setTimeout(() => {
-    projectCollection = client.db().collection("Projects");
+    projectCollection = client.db().collection("pets");
 }, 2000)
 
 //insert project...

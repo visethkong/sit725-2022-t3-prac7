@@ -18,4 +18,4 @@ client.connect((err,db) => {
     }
 })
 
-module.MongoClient = client;
+module.exports = client;

@@ -1,4 +1,4 @@
-let projectModel = require ("..//models/project")
+let projectModel = require ("../models/project")
 
 // let client = require("../dbConnect");
 

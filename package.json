@@ -1,25 +1,29 @@
 {
-  "name": "sit725-2022-t3-prac5",
+  "name": "sit725-2022-t3-prac6",
   "version": "1.0.0",
-  "description": "sit 725 T3 week 5 prac",
+  "description": "sit 725 T3 week 6 prac",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/visethkong/sit725-2022-t3-prac5.git"
+    "url": "git+https://github.com/visethkong/sit725-2022-t3-prac6.git"
   },
   "author": "Viseth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/visethkong/sit725-2022-t3-prac5/issues"
+    "url": "https://github.com/visethkong/sit725-2022-t3-prac6/issues"
   },
-  "homepage": "https://github.com/visethkong/sit725-2022-t3-prac5#readme",
+  "homepage": "https://github.com/visethkong/sit725-2022-t3-prac6#readme",
   "dependencies": {
+    "chai": "^4.3.7",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.12.1"
+    "mocha": "^10.2.0",
+    "mongodb": "^4.12.1",
+    "request": "^2.88.2"
   }
 }
